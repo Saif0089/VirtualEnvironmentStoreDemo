@@ -1,9 +1,9 @@
 const cacheName = "DefaultCompany-ModelPreviewWebGL-0.1";
 const contentToCache = [
-    "Build/Build.loader.js",
-    "Build/Build.framework.js",
-    "Build/Build.data",
-    "Build/Build.wasm",
+    "Build/WebGLBuild.loader.js",
+    "Build/WebGLBuild.framework.js",
+    "Build/WebGLBuild.data",
+    "Build/WebGLBuild.wasm",
     "TemplateData/style.css"
 
 ];
