@@ -1,4 +1,4 @@
-const cacheName = "DefaultCompany-ModelPreviewWebGL-0.2";
+const cacheName = "DefaultCompany-ModelPreviewWebGL-0.3";
 const contentToCache = [
     "Build/WebGLBuild.loader.js",
     "Build/WebGLBuild.framework.js",
