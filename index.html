@@ -7,14 +7,6 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
-    <script src="https://js.stripe.com/v3/"></script>
-    
-    <script>
-        
-                window.stripe = Stripe("pk_test_51Qs1U2FJWErL6FRbyqIsSEiFAC9PZDcT1Tk3RWm7MZaxamfy75SuWrT79lfCjiHv0GbWmIdbPrJzdmSC0kAWB9To00lQ5MMx2M"); 
-                console.log("Stripe initialized successfully!");
-        
-    </script>
   </head>
   <body>
     <div id="unity-container">
@@ -65,15 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/NewWebGLBuild.loader.js";
+      var loaderUrl = buildUrl + "/WebGLBuild.loader.js";
       var config = {
-        dataUrl: buildUrl + "/NewWebGLBuild.data",
-        frameworkUrl: buildUrl + "/NewWebGLBuild.framework.js",
-        codeUrl: buildUrl + "/NewWebGLBuild.wasm",
+        dataUrl: buildUrl + "/WebGLBuild.data",
+        frameworkUrl: buildUrl + "/WebGLBuild.framework.js",
+        codeUrl: buildUrl + "/WebGLBuild.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "ModelPreviewWebGL",
-        productVersion: "0.1",
+        productVersion: "0.2",
         showBanner: unityShowBanner,
       };
 
